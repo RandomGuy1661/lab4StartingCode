@@ -1,4 +1,4 @@
-package lab4;
+package exercise1;
 
 import java.util.ArrayList;
 import java.util.Iterator;
