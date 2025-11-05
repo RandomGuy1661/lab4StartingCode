@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"test","l":"AppDriver"},{"p":"exercise1","l":"MyAList"},{"p":"exercise2","l":"MyDList"},{"p":"exercise2","l":"MyNode"}];updateSearchResults();
