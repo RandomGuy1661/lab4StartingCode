@@ -63,33 +63,55 @@ public class MyAList<E> implements Iterable<E> {
         list.set(index, item);
     }
 
-    // Returns the size of the list
+    /**
+     * A method to get the size (number of values) of the array list.
+     *
+     * @return a number that corresponds the amount of values inside the array list.
+     */
     public int size() {
         return list.size();
     }
 
-    // Checks if the list is empty
+    /**
+     * A method to check if the array list is values within it or not.
+     *
+     * @return a true or false value. True if the array list is empty, false if not.
+     */
     public boolean isEmpty() {
         return list.isEmpty();
     }
 
-    // Returns an array containing all elements
+    /**
+     * A method to convert the array list into an array.
+     *
+     * @return the array based on the array list.
+     */
     public Object[] toArray() {
         return list.toArray();
     }
 
-    // Clears all elements from the list
+    /**
+     * A method to clear the entire array list of its content.
+     */
     public void clear() {
         list.clear();
     }
 
-    // Returns an iterator for the list
+    /**
+     * This method provides access to an iterator for the array list.
+     *
+     * @return The iterator traverses and travels across the array list.
+     */
     @Override
     public Iterator<E> iterator() {
         return list.iterator();
     }
 
-    // Optional: For easy debugging
+    /**
+     * A method to convert the array list into a readable context for the user.
+     *
+     * @return a toString based on the array list.
+     */
     @Override
     public String toString() {
         return list.toString();
